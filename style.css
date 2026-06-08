@@ -22,7 +22,7 @@ body{
     left:50%;
     transform:translateX(-50%);
 
-    width:90%;
+    width:88%;
     max-width:1200px;
 
     display:flex;
@@ -90,7 +90,7 @@ nav a:hover{
     justify-content:space-between;
     align-items:center;
 
-    padding:120px 22%;
+    padding:120px 16%;
     gap:50px;
 }
 
@@ -199,7 +199,7 @@ nav a:hover{
 /* SECTIONS */
 
 section{
-    padding:100px 20%;
+    padding:100px 16%;
 }
 
 .section-title{
@@ -345,7 +345,7 @@ section{
 }
 
 .project-card h3{
-    color:#6441b5;
+    color:#8b5cf6;
     font-size:22px;
     margin-bottom:12px;
 }
