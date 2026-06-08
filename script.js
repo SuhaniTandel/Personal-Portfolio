@@ -1,4 +1,4 @@
-const text = ["Frontend Developer", "Full Stack Developer", "MERN StackDeveloper", "UI/UX Designer"];
+const text = ["Frontend Developer", "Full Stack Developer", "MERN Stack Developer", "UI/UX Designer"];
 
 let i=0, j=0, current="", isDel=false;
 
