@@ -45,6 +45,10 @@ Real-time currency conversion application built using JavaScript.
 
 Collection of mini projects including Calculator, Unit Converter, Random Password Generator, Dice Game, and Feedback Form.
 
+## 🚀 Live Demo
+👉 https://portfolio-website-suhanii.netlify.app/
+
+
 ## 📧 Contact
 
 * Email: tandelsuhani1608@gmail.com
