@@ -380,18 +380,24 @@
 
         </div>
 
-        <form>
+        <form id="contactForm" method="POST" action="https://formsubmit.co/ajax/tandelsuhani1608@gmail.com">
 
-            <input type="text" placeholder="Your Name">
+            <input type="text" name="name" placeholder="Your Name" required>
 
-            <input type="email" placeholder="Your Email">
+            <input type="email" name="email" placeholder="Your Email" required>
 
-            <textarea rows="6"
-                placeholder="Your Message"></textarea>
+            <textarea rows="6" name="message"
+                placeholder="Your Message" required></textarea>
+
+            <input type="hidden" name="_subject" value="New Portfolio Contact">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://example.com">
 
             <button type="submit">
                 Send Message
             </button>
+
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
 
         </form>
 
